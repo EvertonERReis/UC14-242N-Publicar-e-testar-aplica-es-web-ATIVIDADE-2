@@ -1,7 +1,7 @@
 // Tela inicial
 // Usa vários componentes (aqui faremos a composição)
 
-import Header from "./components/ui/header";
+import Header from "./components/ui/Header";
 import Card from "./components/ui/Card";
 import Button from "./components/ui/Button";
 import CardImagem from "./components/ui/CardImagem";
