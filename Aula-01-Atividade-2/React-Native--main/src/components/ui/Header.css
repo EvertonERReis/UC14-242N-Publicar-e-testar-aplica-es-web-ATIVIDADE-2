@@ -1,0 +1,30 @@
+/* =========================
+   CONTAINER DO HEADER
+   ========================= */
+   .app-header {
+    background: linear-gradient(90deg, #facc15, #f59e0b); /* degradê */
+    color: black; /* cor do texto */
+
+    border-radius: 16px; /* borda arredondada */
+    padding: 20px; /* espaço interno */
+    margin-bottom: 30px; /* espaço abaixo */
+
+    /* sombra */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* =========================
+   TÍTULO DO HEADER
+   ========================= */
+.app-header h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+/* =========================
+   TEXTO / PARÁGRAFO
+   ========================= */
+.app-header p {
+    font-size: 15px;
+    line-height: 1.5; /* melhora leitura */
+}

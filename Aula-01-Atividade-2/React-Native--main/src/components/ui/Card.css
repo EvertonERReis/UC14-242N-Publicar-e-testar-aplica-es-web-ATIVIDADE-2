@@ -1,0 +1,24 @@
+/* =========================
+   CARD PADRÃO
+   ========================= */
+
+   .card {
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #ffffff;
+
+    /* sombra leve */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+    /* animação suave */
+    transition: all 0.3s ease;
+}
+
+/* =========================
+   EFEITO HOVER
+   ========================= */
+
+.card:hover {
+    transform: translateY(-4px); /* sobe um pouco */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
